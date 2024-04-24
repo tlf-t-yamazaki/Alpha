@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsForms</MyType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{144908D8-593F-4064-9925-62AED33285B2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>UsrFunc</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>UsrFunc.Form1</StartupObject>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>0</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>OMRON LASERFRONT INC.</AssemblyCompanyName>
+    <StartWithIE>False</StartWithIE>
+    <RootNamespace>UsrFunc</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>TXTY_USE=True,VOLTAGE_USE=True,OK_MARKING_USE=True,NG_MARKING_USE=True,cOSCILLATORcFLcUSE=0,cKEYBOARDcUSE=1,cOFFLINEcDEBUG=1,cCND=0,cDBG=0,cDBGRdraw=0,cIOcMONITORcENABLED=1,cIOcHostComandcENABLED=0,cGPIBcPWR=0,cATLcDEN=0,Win32=True,cGETcLOTINF=0,cCUTDATAcCHECKcBYDATA=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <DefineConstants>TXTY_USE=True,VOLTAGE_USE=True,OK_MARKING_USE=True,NG_MARKING_USE=True,cOSCILLATORcFLcUSE=0,cKEYBOARDcUSE=1,cOFFLINEcDEBUG=0,cCND=0,cDBG=0,cDBGRdraw=0,cIOcMONITORcENABLED=1,cIOcHostComandcENABLED=0,cGPIBcPWR=0,cATLcDEN=0,Win32=True,cGETcLOTINF=0,cCUTDATAcCHECKcBYDATA=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <Optimize>true</Optimize>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'RemoteDbg|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>\\192.168.100.2\trim\</OutputPath>
+    <DefineConstants>TXTY_USE=True,VOLTAGE_USE=True,OK_MARKING_USE=True,NG_MARKING_USE=True,cOSCILLATORcFLcUSE=0,cKEYBOARDcUSE=1,cOFFLINEcDEBUG=0,cCND=0,cDBG=0,cDBGRdraw=0,cIOcMONITORcENABLED=1,cIOcHostComandcENABLED=0,cGPIBcPWR=0,cATLcDEN=0,Win32=True,cGETcLOTINF=0,cCUTDATAcCHECKcBYDATA=True</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxFlatScrollBarArray">
+      <Name>AxFlatScrollBarArray</Name>
+    </Reference>
+    <Reference Include="DefMv10Fnc">
+      <HintPath>..\DefMv10Fnc.dll</HintPath>
+    </Reference>
+    <Reference Include="DefWin32Fnc">
+      <HintPath>..\DefWin32Fnc.dll</HintPath>
+    </Reference>
+    <Reference Include="DllAbout">
+      <HintPath>..\DllAbout.dll</HintPath>
+    </Reference>
+    <Reference Include="DllCndXMLIO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d76b33c552cba7c7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllCndXMLIO.dll</HintPath>
+    </Reference>
+    <Reference Include="DllFLCom">
+      <HintPath>..\DllFLCom.dll</HintPath>
+    </Reference>
+    <Reference Include="DllJog, Version=6.5.4.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllJog.dll</HintPath>
+    </Reference>
+    <Reference Include="DllLaserTeach">
+      <HintPath>..\DllLaserTeach.dll</HintPath>
+    </Reference>
+    <Reference Include="DllManualTeach">
+      <HintPath>..\DllManualTeach.dll</HintPath>
+    </Reference>
+    <Reference Include="DllPassword">
+      <HintPath>..\DllPassword.dll</HintPath>
+    </Reference>
+    <Reference Include="DllPlcIf, Version=5.0.0.1, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllPlcIf.dll</HintPath>
+    </Reference>
+    <Reference Include="DllProbeTeach">
+      <HintPath>..\DllProbeTeach.dll</HintPath>
+    </Reference>
+    <Reference Include="DllQRDataIO">
+      <HintPath>..\DllQRDataIO.dll</HintPath>
+    </Reference>
+    <Reference Include="DllSerialIO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=712c9022c7a3d730, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllSerialIO.dll</HintPath>
+    </Reference>
+    <Reference Include="DllSysprm">
+      <HintPath>..\DllSysprm.dll</HintPath>
+    </Reference>
+    <Reference Include="DllSystem">
+      <HintPath>..\DllSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="DllTeach">
+      <HintPath>..\DllTeach.dll</HintPath>
+    </Reference>
+    <Reference Include="DllTrimClassLibrary, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DllTrimClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="DllUtility">
+      <HintPath>..\DllUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="DllVideo">
+      <HintPath>..\DllVideo.dll</HintPath>
+    </Reference>
+    <Reference Include="microsoft.stdformat, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Common\microsoft.stdformat.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+      <Name>Microsoft.VisualBasic.Compatibility.Data</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="AxMSComCtl2">
+      <Guid>{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSComCtl2">
+      <Guid>{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <Lcid>0</Lcid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="DefTrimFnc_V800.vb" />
+    <Compile Include="FormEdit\cBtn_.Designer.vb">
+      <DependentUpon>cBtn_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cBtn_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\cChk_.Designer.vb">
+      <DependentUpon>cChk_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cChk_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\cCmb_.Designer.vb">
+      <DependentUpon>cCmb_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cCmb_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\cGrp_.Designer.vb">
+      <DependentUpon>cGrp_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cGrp_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\cLbl_.Designer.vb">
+      <DependentUpon>cLbl_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cLbl_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\cPnl_.Designer.vb">
+      <DependentUpon>cPnl_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cPnl_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\cRBtn_.Designer.vb">
+      <DependentUpon>cRBtn_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cRBtn_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\cTxt_.Designer.vb">
+      <DependentUpon>cTxt_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\cTxt_.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FormEdit\frmEdit.Designer.vb">
+      <DependentUpon>frmEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\frmEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabBase.Designer.vb">
+      <DependentUpon>tabBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabCut.Designer.vb">
+      <DependentUpon>tabCut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabCut.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabGpib.Designer.vb">
+      <DependentUpon>tabGpib.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabGpib.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabPattern.Designer.vb">
+      <DependentUpon>tabPattern.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabPattern.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabResistor.Designer.vb">
+      <DependentUpon>tabResistor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabResistor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabSystem.Designer.vb">
+      <DependentUpon>tabSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabSystem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabUser.designer.vb">
+      <DependentUpon>tabUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabUser.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormEdit\tabUser2.designer.vb">
+      <DependentUpon>tabUser2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdit\tabUser2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormTXTY\frmTxTyMsgbox.Designer.vb">
+      <DependentUpon>frmTxTyMsgbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTXTY\frmTxTyMsgbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTXTY\frmTxTyTeach.Designer.vb">
+      <DependentUpon>frmTxTyTeach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTXTY\frmTxTyTeach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\frmLotFileDisp.Designer.vb">
+      <DependentUpon>frmLotFileDisp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\frmLotFileDisp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\formReStartPosSet.Designer.vb">
+      <DependentUpon>formReStartPosSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\formReStartPosSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\frmLoaderInfo.Designer.vb">
+      <DependentUpon>frmLoaderInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\frmLoaderInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\frmLotInfoInput.Designer.vb">
+      <DependentUpon>frmLotInfoInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\frmLotInfoInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\FormDataSelect.designer.vb">
+      <DependentUpon>FormDataSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\FormDataSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\frmMultiResData.Designer.vb">
+      <DependentUpon>frmMultiResData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\frmMultiResData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\frmMultiTmpData.Designer.vb">
+      <DependentUpon>frmMultiTmpData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\frmMultiTmpData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\FrmWait.designer.vb">
+      <DependentUpon>FrmWait.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\FrmWait.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser\tabLotInfoInput.designer.vb">
+      <DependentUpon>tabLotInfoInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser\tabLotInfoInput.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmDistribution\frmDistribution.Designer.vb">
+      <DependentUpon>frmDistribution.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDistribution\frmDistribution.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFineAdjust.Designer.vb">
+      <DependentUpon>frmFineAdjust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFineAdjust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLotInp.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmLotInp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLotInp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessage.designer.vb">
+      <DependentUpon>frmMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Globals.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GpibMaster.vb" />
+    <Compile Include="clsLoader.vb" />
+    <Compile Include="MainModules.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rs232c.vb" />
+    <Compile Include="TrimErrNo.vb" />
+    <Compile Include="Trimming.vb" />
+    <Compile Include="User.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserModule.vb" />
+    <Compile Include="UserSub.vb" />
+    <EmbeddedResource Include="FormEdit\cBtn_.resx">
+      <DependentUpon>cBtn_.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\cChk_.resx">
+      <DependentUpon>cChk_.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\cRBtn_.resx">
+      <DependentUpon>cRBtn_.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\frmEdit.resx">
+      <DependentUpon>frmEdit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabBase.resx">
+      <DependentUpon>tabBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabCut.resx">
+      <DependentUpon>tabCut.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabGpib.resx">
+      <DependentUpon>tabGpib.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabPattern.resx">
+      <DependentUpon>tabPattern.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabResistor.resx">
+      <DependentUpon>tabResistor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabSystem.resx">
+      <DependentUpon>tabSystem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabUser.resx">
+      <DependentUpon>tabUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdit\tabUser2.resx">
+      <DependentUpon>tabUser2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTXTY\frmTxTyMsgbox.resx">
+      <DependentUpon>frmTxTyMsgbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTXTY\frmTxTyTeach.resx">
+      <DependentUpon>frmTxTyTeach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\frmLotFileDisp.resx">
+      <DependentUpon>frmLotFileDisp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\FormDataSelect.resx">
+      <DependentUpon>FormDataSelect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\formReStartPosSet.resx">
+      <DependentUpon>formReStartPosSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\frmLoaderInfo.resx">
+      <DependentUpon>frmLoaderInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\frmLotInfoInput.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLotInfoInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\frmMultiResData.resx">
+      <DependentUpon>frmMultiResData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\frmMultiTmpData.resx">
+      <DependentUpon>frmMultiTmpData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\FrmWait.resx">
+      <DependentUpon>FrmWait.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser\tabLotInfoInput.resx">
+      <DependentUpon>tabLotInfoInput.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDistribution\frmDistribution.resx">
+      <DependentUpon>frmDistribution.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFineAdjust.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFineAdjust.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLotInp.resX">
+      <DependentUpon>frmLotInp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resX">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="AxFlatScrollBarArray.dll" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="history.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>copy $(TargetPath) $(TargetDir)UsrFncAlpha.exe</PostBuildEvent>
+  </PropertyGroup>
+</Project>
