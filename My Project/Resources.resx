@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CMD_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Form1_001" xml:space="preserve">
+    <value>レーザパワー設定値　---- W</value>
+  </data>
+  <data name="Form1_002" xml:space="preserve">
+    <value>定電流値 </value>
+  </data>
+  <data name="Form1_003" xml:space="preserve">
+    <value>アプリケーションを終了します。</value>
+  </data>
+  <data name="Form1_004" xml:space="preserve">
+    <value>トリミングデータを保存しますか？</value>
+  </data>
+  <data name="Form1_005" xml:space="preserve">
+    <value>データの保存が完了しました。</value>
+  </data>
+  <data name="Form1_006" xml:space="preserve">
+    <value>データファイル名 </value>
+  </data>
+  <data name="Form1_007" xml:space="preserve">
+    <value>レーザーパワー設定値 </value>
+  </data>
+  <data name="Form1_008" xml:space="preserve">
+    <value>(閾値)</value>
+  </data>
+  <data name="Form1_009" xml:space="preserve">
+    <value>θ角度 = </value>
+  </data>
+  <data name="Form1_010" xml:space="preserve">
+    <value>トリム位置X,Y=</value>
+  </data>
+  <data name="Form1_011" xml:space="preserve">
+    <value>ずれ量X,Y =</value>
+  </data>
+  <data name="Form1_012" xml:space="preserve">
+    <value>補正位置1X,Y =</value>
+  </data>
+  <data name="Form1_013" xml:space="preserve">
+    <value>ずれ量1X,Y=</value>
+  </data>
+  <data name="Form1_014" xml:space="preserve">
+    <value>補正位置2X,Y =</value>
+  </data>
+  <data name="Form1_015" xml:space="preserve">
+    <value>ずれ量2X,Y=</value>
+  </data>
+  <data name="Form1_016" xml:space="preserve">
+    <value>一致度POS1   =</value>
+  </data>
+  <data name="Form1_017" xml:space="preserve">
+    <value>一致度POS2   =</value>
+  </data>
+  <data name="Form1_018" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="Form1_019" xml:space="preserve">
+    <value>生産グラフ　非表示</value>
+  </data>
+  <data name="Form1_020" xml:space="preserve">
+    <value>生産グラフ　表示</value>
+  </data>
+  <data name="Form1_021" xml:space="preserve">
+    <value>保存完了！</value>
+  </data>
+  <data name="Form1_022" xml:space="preserve">
+    <value>保存できませんでした。</value>
+  </data>
+  <data name="MSGERR_SEND_TRIMDATA" xml:space="preserve">
+    <value>トリミングデータの設定に失敗しました。
+トリミングデータに問題がないか確認してください。</value>
+  </data>
+  <data name="MSG_102" xml:space="preserve">
+    <value>アプリケーションを終了してよろしいですか？　　　　　　　　　</value>
+  </data>
+  <data name="MSG_105" xml:space="preserve">
+    <value>前の画面に戻ります。よろしいですか？　　　　　　　　　　　　</value>
+  </data>
+  <data name="MSG_106" xml:space="preserve">
+    <value>この情報を保存して前の画面に戻ります。よろしいですか？　　　</value>
+  </data>
+  <data name="MSG_108" xml:space="preserve">
+    <value>累計をクリアしてもよろしいですか？　　　　　　　　　　　　　</value>
+  </data>
+  <data name="MSG_115" xml:space="preserve">
+    <value>編集中のデータがあります。ロードしますか？　　　　　　　　　</value>
+  </data>
+  <data name="MSG_116" xml:space="preserve">
+    <value>データロード確認　　　　　　　　　　　　　　　　　　　　　　</value>
+  </data>
+  <data name="MSG_117" xml:space="preserve">
+    <value>編集中のデータがあります。　　　　　　　　　　　　　　　　　</value>
+  </data>
+  <data name="MSG_118" xml:space="preserve">
+    <value>補正モードが無しに設定されている場合は、実行できません。　　</value>
+  </data>
+  <data name="MSG_127" xml:space="preserve">
+    <value>パターン認識エラー</value>
+  </data>
+  <data name="MSG_130" xml:space="preserve">
+    <value>トリミングデータファイル入力エラー</value>
+  </data>
+  <data name="MSG_132" xml:space="preserve">
+    <value>加工条件の送信に失敗しました。
+再度データをロードするか、編集画面から加工条件の設定を行ってください。</value>
+  </data>
+  <data name="MSG_133" xml:space="preserve">
+    <value>中間ファイルの読込みに失敗しました。</value>
+  </data>
+  <data name="MSG_134" xml:space="preserve">
+    <value>中間ファイルの書き込みに失敗しました。</value>
+  </data>
+  <data name="MSG_135" xml:space="preserve">
+    <value>データ編集エラー。データを再ロードしてください。</value>
+  </data>
+  <data name="MSG_136" xml:space="preserve">
+    <value>シリアルポートＯＰＥＮエラー</value>
+  </data>
+  <data name="MSG_138" xml:space="preserve">
+    <value>シリアルポート送信エラー</value>
+  </data>
+  <data name="MSG_139" xml:space="preserve">
+    <value>シリアルポート受信エラー</value>
+  </data>
+  <data name="MSG_14" xml:space="preserve">
+    <value>トリミングパラメータデータをロードするか新規作成してください</value>
+  </data>
+  <data name="MSG_141" xml:space="preserve">
+    <value>ＦＬ側加工条件のリードに失敗しました。</value>
+  </data>
+  <data name="MSG_142" xml:space="preserve">
+    <value>加工条件ファイルを作成しました</value>
+  </data>
+  <data name="MSG_143" xml:space="preserve">
+    <value>データをロードしました</value>
+  </data>
+  <data name="MSG_144" xml:space="preserve">
+    <value>データロードＮＧ</value>
+  </data>
+  <data name="MSG_145" xml:space="preserve">
+    <value>データをセーブしました</value>
+  </data>
+  <data name="MSG_146" xml:space="preserve">
+    <value>データセーブＮＧ</value>
+  </data>
+  <data name="MSG_147" xml:space="preserve">
+    <value>ＦＬへ加工条件を送信しました。</value>
+  </data>
+  <data name="MSG_148" xml:space="preserve">
+    <value>ＦＬへデータ送信中・・・・・・</value>
+  </data>
+  <data name="MSG_149" xml:space="preserve">
+    <value>ファイバレーザの加工条件が変更されている可能性があります。ロードしますか？</value>
+  </data>
+  <data name="MSG_15" xml:space="preserve">
+    <value>指定されたファイルは存在しません</value>
+  </data>
+  <data name="MSG_150" xml:space="preserve">
+    <value>ＦＬ通信異常。ＦＬとの通信に失敗しました。
+ＦＬと正しく接続できているか確認してください。</value>
+  </data>
+  <data name="MSG_151" xml:space="preserve">
+    <value>加工条件の設定に失敗しました。</value>
+  </data>
+  <data name="MSG_152" xml:space="preserve">
+    <value>印刷初期処理に失敗しました。</value>
+  </data>
+  <data name="MSG_153" xml:space="preserve">
+    <value>印刷処理に失敗しました。</value>
+  </data>
+  <data name="MSG_155" xml:space="preserve">
+    <value>基板枚数をクリアしてもよろしいですか？</value>
+  </data>
+  <data name="MSG_157" xml:space="preserve">
+    <value>指定されたバーコードは存在しません</value>
+  </data>
+  <data name="MSG_158" xml:space="preserve">
+    <value>加工条件ファイルリードエラー。</value>
+  </data>
+  <data name="MSG_159" xml:space="preserve">
+    <value>ファイルが存在します。上書きしても宜しいですか？</value>
+  </data>
+  <data name="MSG_16" xml:space="preserve">
+    <value>指定されたファイルはトリミングパラメータのデータではありません</value>
+  </data>
+  <data name="MSG_160" xml:space="preserve">
+    <value>プローブクリーニングのステージ位置を合わせて下さい。</value>
+  </data>
+  <data name="MSG_161" xml:space="preserve">
+    <value>移動：[矢印]  決定：[START]  中断：[RESET]</value>
+  </data>
+  <data name="MSG_162" xml:space="preserve">
+    <value>プローブクリーニングのプローブ位置を合わせて下さい。</value>
+  </data>
+  <data name="MSG_25" xml:space="preserve">
+    <value>動作モード（デジスイッチ）の設定を x0～x6 にしてください</value>
+  </data>
+  <data name="MSG_39" xml:space="preserve">
+    <value>カット位置補正対象の抵抗がありません</value>
+  </data>
+  <data name="MSG_AUTOPOWER_01" xml:space="preserve">
+    <value>パワー調整開始</value>
+  </data>
+  <data name="MSG_AUTOPOWER_02" xml:space="preserve">
+    <value>加工条件番号</value>
+  </data>
+  <data name="MSG_AUTOPOWER_03" xml:space="preserve">
+    <value>レーザパワー設定値</value>
+  </data>
+  <data name="MSG_AUTOPOWER_04" xml:space="preserve">
+    <value>電流値</value>
+  </data>
+  <data name="MSG_AUTOPOWER_05" xml:space="preserve">
+    <value>パワー調整未完了</value>
+  </data>
+  <data name="MSG_AUTOPOWER_06" xml:space="preserve">
+    <value>レーザパワーモニタリング正常終了</value>
+  </data>
+  <data name="MSG_AXIS_T_SERVO_ALM" xml:space="preserve">
+    <value>θ軸サーボアラーム</value>
+  </data>
+  <data name="MSG_AXIS_X_SERVO_ALM" xml:space="preserve">
+    <value>X軸サーボアラーム</value>
+  </data>
+  <data name="MSG_AXIS_Y_SERVO_ALM" xml:space="preserve">
+    <value>Y軸サーボアラーム</value>
+  </data>
+  <data name="MSG_AXIS_Z_SERVO_ALM" xml:space="preserve">
+    <value>Z軸サーボアラーム</value>
+  </data>
+  <data name="MSG_AXS_LIM_ATT" xml:space="preserve">
+    <value>ATT軸リミット検出</value>
+  </data>
+  <data name="MSG_AXS_LIM_T" xml:space="preserve">
+    <value>θ軸リミット検出</value>
+  </data>
+  <data name="MSG_AXS_LIM_X" xml:space="preserve">
+    <value>X軸リミット検出</value>
+  </data>
+  <data name="MSG_AXS_LIM_Y" xml:space="preserve">
+    <value>Y軸リミット検出</value>
+  </data>
+  <data name="MSG_AXS_LIM_Z" xml:space="preserve">
+    <value>Z軸リミット検出</value>
+  </data>
+  <data name="MSG_AXS_LIM_Z2" xml:space="preserve">
+    <value>Z2軸リミット検出</value>
+  </data>
+  <data name="MSG_BP_BSIZE_OVER" xml:space="preserve">
+    <value>ブロックサイズ設定オーバー(ソフト可動範囲外)</value>
+  </data>
+  <data name="MSG_BP_GRV_ALARM_X" xml:space="preserve">
+    <value>ガルバノアラームX</value>
+  </data>
+  <data name="MSG_BP_GRV_ALARM_Y" xml:space="preserve">
+    <value>ガルバノアラームY</value>
+  </data>
+  <data name="MSG_BP_HARD_LIMITOVER_HI" xml:space="preserve">
+    <value>BPリミットオーバー(最大可動範囲以上)</value>
+  </data>
+  <data name="MSG_BP_HARD_LIMITOVER_LO" xml:space="preserve">
+    <value>BPリミットオーバー(最小可動範囲以下)</value>
+  </data>
+  <data name="MSG_BP_LIMITOVER" xml:space="preserve">
+    <value>BP移動距離設定リミットオーバー</value>
+  </data>
+  <data name="MSG_BP_MOVE_TIMEOUT" xml:space="preserve">
+    <value>BP タイムアウト</value>
+  </data>
+  <data name="MSG_BP_SOFT_LIMITOVER" xml:space="preserve">
+    <value>BPソフト可動範囲オーバー</value>
+  </data>
+  <data name="MSG_frmLimit_01" xml:space="preserve">
+    <value>BPリミット</value>
+  </data>
+  <data name="MSG_frmLimit_03" xml:space="preserve">
+    <value>X軸リミット</value>
+  </data>
+  <data name="MSG_frmLimit_04" xml:space="preserve">
+    <value>Y軸リミット</value>
+  </data>
+  <data name="MSG_frmLimit_05" xml:space="preserve">
+    <value>Z軸リミット</value>
+  </data>
+  <data name="MSG_frmLimit_06" xml:space="preserve">
+    <value>Z2軸リミット</value>
+  </data>
+  <data name="MSG_frmLimit_07" xml:space="preserve">
+    <value>STARTキーを押すか、OKボタンを押して下さい。</value>
+  </data>
+  <data name="MSG_F_CAR" xml:space="preserve">
+    <value>キャリブレーション(補正実行)</value>
+  </data>
+  <data name="MSG_F_CARREC" xml:space="preserve">
+    <value>キャリブレーション(画像登録)</value>
+  </data>
+  <data name="MSG_F_CUTREC" xml:space="preserve">
+    <value>外部カメラカット位置(画像登録)</value>
+  </data>
+  <data name="MSG_F_CUTREV" xml:space="preserve">
+    <value>外部カメラカット位置(補正実行)</value>
+  </data>
+  <data name="MSG_F_EXR1" xml:space="preserve">
+    <value>外部カメラティーチング(１抵抗)</value>
+  </data>
+  <data name="MSG_F_EXTEACH" xml:space="preserve">
+    <value>外部カメラティーチング(全抵抗)</value>
+  </data>
+  <data name="MSG_INTIME_ERROR" xml:space="preserve">
+    <value>INTRIMエラー</value>
+  </data>
+  <data name="MSG_LOGERROR" xml:space="preserve">
+    <value>ログファイルの書込みでエラーが発生しました</value>
+  </data>
+  <data name="MSG_OPLOG_APROBEEXE" xml:space="preserve">
+    <value>オートプローブ実行</value>
+  </data>
+  <data name="MSG_OPLOG_APROBEREC" xml:space="preserve">
+    <value>オートプローブ登録</value>
+  </data>
+  <data name="MSG_OPLOG_AUTO" xml:space="preserve">
+    <value>自動運転</value>
+  </data>
+  <data name="MSG_OPLOG_CLRTOTAL" xml:space="preserve">
+    <value>集計クリア</value>
+  </data>
+  <data name="MSG_OPLOG_CMD" xml:space="preserve">
+    <value>コマンド</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC01" xml:space="preserve">
+    <value>データロード</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC02" xml:space="preserve">
+    <value>データセーブ</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC03" xml:space="preserve">
+    <value>データ編集</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC05" xml:space="preserve">
+    <value>レーザ調整</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC06" xml:space="preserve">
+    <value>ロギング</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC07" xml:space="preserve">
+    <value>プローブ位置合わせ</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC08" xml:space="preserve">
+    <value>ティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC08S" xml:space="preserve">
+    <value>カット補正位置ティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC09" xml:space="preserve">
+    <value>画像登録</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC10" xml:space="preserve">
+    <value>トリマ装置停止</value>
+  </data>
+  <data name="MSG_OPLOG_FUNC30" xml:space="preserve">
+    <value>サーキットティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_HCMD_TRMCMD" xml:space="preserve">
+    <value>HOST CMD: TRM CMD</value>
+  </data>
+  <data name="MSG_OPLOG_IDTEACH" xml:space="preserve">
+    <value>ＩＤティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_LOADERINIT" xml:space="preserve">
+    <value>ローダ原点復帰</value>
+  </data>
+  <data name="MSG_OPLOG_MAP" xml:space="preserve">
+    <value>マップ選択</value>
+  </data>
+  <data name="MSG_OPLOG_SINSYUKU" xml:space="preserve">
+    <value>伸縮補正(画像登録)</value>
+  </data>
+  <data name="MSG_OPLOG_TRIMRES" xml:space="preserve">
+    <value>トリミング中RESET SW押下により停止</value>
+  </data>
+  <data name="MSG_OPLOG_TRIMST" xml:space="preserve">
+    <value>トリミング</value>
+  </data>
+  <data name="MSG_OPLOG_WAKEUP" xml:space="preserve">
+    <value>トリマ装置起動</value>
+  </data>
+  <data name="MSG_OPN_CVR" xml:space="preserve">
+    <value>筐体カバー開検出</value>
+  </data>
+  <data name="MSG_OPN_CVRLTC" xml:space="preserve">
+    <value>カバー開ラッチ検出</value>
+  </data>
+  <data name="MSG_OPN_SCVR" xml:space="preserve">
+    <value>スライドカバー開検出</value>
+  </data>
+  <data name="MSG_SPRASH0" xml:space="preserve">
+    <value>原点復帰中</value>
+  </data>
+  <data name="MSG_SPRASH12" xml:space="preserve">
+    <value>エアー圧低下検出</value>
+  </data>
+  <data name="MSG_SPRASH13" xml:space="preserve">
+    <value>連続NG-HIエラー</value>
+  </data>
+  <data name="MSG_SPRASH14" xml:space="preserve">
+    <value>再プロービング失敗</value>
+  </data>
+  <data name="MSG_SPRASH16" xml:space="preserve">
+    <value>RESETキーを押すとプログラムを終了します</value>
+  </data>
+  <data name="MSG_SPRASH17" xml:space="preserve">
+    <value>Cancelボタン押下でプログラムを終了します</value>
+  </data>
+  <data name="MSG_SPRASH18" xml:space="preserve">
+    <value>ローダ通信タイムアウトエラー</value>
+  </data>
+  <data name="MSG_SPRASH19" xml:space="preserve">
+    <value>全停止異常発生中</value>
+  </data>
+  <data name="MSG_SPRASH20" xml:space="preserve">
+    <value>サイクル停止異常発生中</value>
+  </data>
+  <data name="MSG_SPRASH21" xml:space="preserve">
+    <value>軽故障発生中</value>
+  </data>
+  <data name="MSG_SPRASH22" xml:space="preserve">
+    <value>STARTキーを押すと自動運転を開始します</value>
+  </data>
+  <data name="MSG_SPRASH23" xml:space="preserve">
+    <value>トリミング実行中にエラーが発生しました。</value>
+  </data>
+  <data name="MSG_SPRASH24" xml:space="preserve">
+    <value>ローダ原点復帰中</value>
+  </data>
+  <data name="MSG_SPRASH25" xml:space="preserve">
+    <value>インターロック全解除中</value>
+  </data>
+  <data name="MSG_SPRASH26" xml:space="preserve">
+    <value>インターロック一部解除中</value>
+  </data>
+  <data name="MSG_SPRASH27" xml:space="preserve">
+    <value>筐体カバーが開きました</value>
+  </data>
+  <data name="MSG_SPRASH28" xml:space="preserve">
+    <value>スライドカバーが開きました</value>
+  </data>
+  <data name="MSG_SPRASH30" xml:space="preserve">
+    <value>PLCステータス異常</value>
+  </data>
+  <data name="MSG_SPRASH31" xml:space="preserve">
+    <value>注意！！！</value>
+  </data>
+  <data name="MSG_SPRASH32" xml:space="preserve">
+    <value>スライドカバーが自動で閉じます</value>
+  </data>
+  <data name="MSG_SPRASH33" xml:space="preserve">
+    <value>RESETキーを押すと処理を終了します</value>
+  </data>
+  <data name="MSG_SPRASH34" xml:space="preserve">
+    <value>筐体カバーまたはスライドカバーが開きました</value>
+  </data>
+  <data name="MSG_SPRASH35" xml:space="preserve">
+    <value>STARTキー：処理続行，RESETキー：処理終了</value>
+  </data>
+  <data name="MSG_SPRASH36" xml:space="preserve">
+    <value>筐体カバーを閉じて</value>
+  </data>
+  <data name="MSG_SPRASH37" xml:space="preserve">
+    <value>ローダ原点復帰未完了</value>
+  </data>
+  <data name="MSG_SPRASH38" xml:space="preserve">
+    <value>ステージ原点移動中</value>
+  </data>
+  <data name="MSG_SPRASH39" xml:space="preserve">
+    <value>一時停止中です</value>
+  </data>
+  <data name="MSG_SPRASH4" xml:space="preserve">
+    <value>STARTキーを押してください</value>
+  </data>
+  <data name="MSG_SPRASH40" xml:space="preserve">
+    <value>測定のばらつきを検出しました</value>
+  </data>
+  <data name="MSG_SPRASH41" xml:space="preserve">
+    <value>測定時オーバロードを検出しました</value>
+  </data>
+  <data name="MSG_SPRASH42" xml:space="preserve">
+    <value>再プロービングエラー</value>
+  </data>
+  <data name="MSG_SPRASH43" xml:space="preserve">
+    <value>前面扉ロックタイムアウト</value>
+  </data>
+  <data name="MSG_SPRASH44" xml:space="preserve">
+    <value>前面扉ロック解除タイムアウト</value>
+  </data>
+  <data name="MSG_SPRASH45" xml:space="preserve">
+    <value>装置内の基板を取り除いてください</value>
+  </data>
+  <data name="MSG_SPRASH46" xml:space="preserve">
+    <value>装置原点復帰中</value>
+  </data>
+  <data name="MSG_SPRASH47" xml:space="preserve">
+    <value>Home位置移動中</value>
+  </data>
+  <data name="MSG_SPRASH48" xml:space="preserve">
+    <value>ＱＲコードに対応したトリミングデータがありません</value>
+  </data>
+  <data name="MSG_SPRASH49" xml:space="preserve">
+    <value>ファイルを確認してください</value>
+  </data>
+  <data name="MSG_SPRASH50" xml:space="preserve">
+    <value>PLCローバッテリーアラーム</value>
+  </data>
+  <data name="MSG_SPRASH51" xml:space="preserve">
+    <value>電池を交換してください</value>
+  </data>
+  <data name="MSG_SPRASH6" xml:space="preserve">
+    <value>非常停止しました</value>
+  </data>
+  <data name="MSG_SRV_ALM" xml:space="preserve">
+    <value>サーボアラーム</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_MINUS" xml:space="preserve">
+    <value>軸マイナスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_MINUS_AXIS_T" xml:space="preserve">
+    <value>θ軸マイナスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_MINUS_AXIS_X" xml:space="preserve">
+    <value>X軸マイナスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_MINUS_AXIS_Y" xml:space="preserve">
+    <value>Y軸マイナスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_MINUS_AXIS_Z" xml:space="preserve">
+    <value>Z軸マイナスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_MINUS_AXIS_Z2" xml:space="preserve">
+    <value>Z2軸マイナスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_PLUS" xml:space="preserve">
+    <value>軸プラスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_PLUS_AXIS_T" xml:space="preserve">
+    <value>θ軸プラスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_PLUS_AXIS_X" xml:space="preserve">
+    <value>X軸プラスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_PLUS_AXIS_Y" xml:space="preserve">
+    <value>Y軸プラスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_PLUS_AXIS_Z" xml:space="preserve">
+    <value>Z軸プラスリミットオーバー</value>
+  </data>
+  <data name="MSG_STG_SOFTLMT_PLUS_AXIS_Z2" xml:space="preserve">
+    <value>Z2軸プラスリミットオーバー</value>
+  </data>
+  <data name="MSG_TIMEOUT_ATT" xml:space="preserve">
+    <value>ロータリアッテネータタイムアウトエラー</value>
+  </data>
+  <data name="MSG_TIMEOUT_AXIS_T" xml:space="preserve">
+    <value>θ軸タイムアウトエラー</value>
+  </data>
+  <data name="MSG_TIMEOUT_AXIS_X" xml:space="preserve">
+    <value>X軸タイムアウトエラー</value>
+  </data>
+  <data name="MSG_TIMEOUT_AXIS_XY" xml:space="preserve">
+    <value>XY軸タイムアウトエラー</value>
+  </data>
+  <data name="MSG_TIMEOUT_AXIS_Y" xml:space="preserve">
+    <value>Y軸タイムアウトエラー</value>
+  </data>
+  <data name="MSG_TIMEOUT_AXIS_Z" xml:space="preserve">
+    <value>Z軸タイムアウトエラー</value>
+  </data>
+  <data name="MSG_TIMEOUT_AXIS_Z2" xml:space="preserve">
+    <value>Z2軸タイムアウトエラー</value>
+  </data>
+  <data name="MSG_TOTAL_CIRCUIT" xml:space="preserve">
+    <value>サーキット単位</value>
+  </data>
+  <data name="MSG_TOTAL_REGISTOR" xml:space="preserve">
+    <value>抵抗単位</value>
+  </data>
+  <data name="TITLE_4" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="TITLE_LOGGING" xml:space="preserve">
+    <value>ロギング処理</value>
+  </data>
+  <data name="TITLE_TX" xml:space="preserve">
+    <value>チップサイズ(TX)ティーチング</value>
+  </data>
+  <data name="TITLE_TY" xml:space="preserve">
+    <value>ステップサイズ(TY)ティーチング</value>
+  </data>
+  <data name="CIRTEACH_MSG01" xml:space="preserve">
+    <value>サーキット基準点ＸＹを合わせてから｢START｣キーを押して下さい</value>
+  </data>
+  <data name="ERR_PROB_EXE" xml:space="preserve">
+    <value>有効な抵抗(1-999)データがないためこのコマンドは実行できません！</value>
+  </data>
+  <data name="ERR_TEACH_EXE" xml:space="preserve">
+    <value>有効な抵抗(1-999)又はマーキング抵抗データがないためこのコマンドは実行できません！</value>
+  </data>
+  <data name="ERR_TXNUM_B" xml:space="preserve">
+    <value>ブロック数が１のためこのコマンドは実行できません！</value>
+  </data>
+  <data name="ERR_TXNUM_C" xml:space="preserve">
+    <value>サーキット数が１のためこのコマンドは実行できません！</value>
+  </data>
+  <data name="ERR_TXNUM_S" xml:space="preserve">
+    <value>ステップ測定回数が0のためこのコマンドは実行できません！</value>
+  </data>
+  <data name="INFO_MSG10" xml:space="preserve">
+    <value>[START]キーを押して下さい" &amp; vbCrLf &amp; "　[HALT]キーで１つ前のデータに戻れます</value>
+  </data>
+  <data name="INFO_MSG13" xml:space="preserve">
+    <value>チップサイズ　ティーチング</value>
+  </data>
+  <data name="INFO_MSG14" xml:space="preserve">
+    <value>ステージグループ間隔ティーチング</value>
+  </data>
+  <data name="INFO_MSG15" xml:space="preserve">
+    <value>ステップオフセット量　ティーチング</value>
+  </data>
+  <data name="INFO_MSG16" xml:space="preserve">
+    <value>　　基準位置を合わせて下さい。</value>
+  </data>
+  <data name="INFO_MSG17" xml:space="preserve">
+    <value>　　移動：[矢印]  決定：[START]  中断：[RESET]  前項:[HALT]</value>
+  </data>
+  <data name="INFO_MSG19" xml:space="preserve">
+    <value>第</value>
+  </data>
+  <data name="INFO_MSG23" xml:space="preserve">
+    <value>ＢＰグループ間隔ティーチング</value>
+  </data>
+  <data name="INFO_MSG24" xml:space="preserve">
+    <value>第</value>
+  </data>
+  <data name="INFO_MSG25" xml:space="preserve">
+    <value>ブロックのティーチング</value>
+  </data>
+  <data name="INFO_MSG26" xml:space="preserve">
+    <value>最終</value>
+  </data>
+  <data name="INFO_MSG30" xml:space="preserve">
+    <value>サーキット間隔ティーチング</value>
+  </data>
+  <data name="INFO_MSG31" xml:space="preserve">
+    <value>ステップオフセット量のティーチング</value>
+  </data>
+  <data name="INFO_MSG32" xml:space="preserve">
+    <value>  (ＴＸ)</value>
+  </data>
+  <data name="INFO_MSG33" xml:space="preserve">
+    <value>  (ＴＹ)</value>
+  </data>
+  <data name="INFO_REC" xml:space="preserve">
+    <value>登録:[START]  キャンセル:[RESET]</value>
+  </data>
+  <data name="LBL_ATT" xml:space="preserve">
+    <value>減衰率</value>
+  </data>
+  <data name="LBL_CALIBRATION_001" xml:space="preserve">
+    <value>【十字カットモード(基準座標１)】</value>
+  </data>
+  <data name="LBL_CALIBRATION_002" xml:space="preserve">
+    <value>【十字カットモード(基準座標２)】</value>
+  </data>
+  <data name="LBL_CALIBRATION_003" xml:space="preserve">
+    <value>【画像認識モード(基準座標１)】</value>
+  </data>
+  <data name="LBL_CALIBRATION_004" xml:space="preserve">
+    <value>【画像認識モード(基準座標２)】</value>
+  </data>
+  <data name="LBL_CUT_POS_CORRECT_BLOCK_NO_X" xml:space="preserve">
+    <value>ブロックNo X軸</value>
+  </data>
+  <data name="LBL_CUT_POS_CORRECT_BLOCK_NO_Y" xml:space="preserve">
+    <value>ブロックNo Y軸</value>
+  </data>
+  <data name="LBL_IDREADER_TEACH_01" xml:space="preserve">
+    <value>ＩＤ リーダー ティーチング</value>
+  </data>
+  <data name="LBL_IDREADER_TEACH_04" xml:space="preserve">
+    <value>ＩＤリーダー</value>
+  </data>
+  <data name="LBL_TXTY_TEACH_07" xml:space="preserve">
+    <value>補正前</value>
+  </data>
+  <data name="LBL_TXTY_TEACH_08" xml:space="preserve">
+    <value>補正後</value>
+  </data>
+  <data name="LBL_TXTY_TEACH_09" xml:space="preserve">
+    <value>グループインターバル</value>
+  </data>
+  <data name="LBL_TXTY_TEACH_11" xml:space="preserve">
+    <value>ステップインターバル</value>
+  </data>
+  <data name="LBL_TXTY_TEACH_14" xml:space="preserve">
+    <value>グループ</value>
+  </data>
+  <data name="MSG_AUTO_15" xml:space="preserve">
+    <value>登録リストを全て削除します。</value>
+  </data>
+  <data name="MSG_AUTO_16" xml:space="preserve">
+    <value>よろしいですか？</value>
+  </data>
+  <data name="MSG_AUTO_17" xml:space="preserve">
+    <value>エンドレスモード時は複数のデータファイルは選択できません。</value>
+  </data>
+  <data name="MSG_AUTO_18" xml:space="preserve">
+    <value>データファイルを選択してください。</value>
+  </data>
+  <data name="MSG_AUTO_19" xml:space="preserve">
+    <value>編集中のデータを保存しますか？</value>
+  </data>
+  <data name="MSG_AUTO_20" xml:space="preserve">
+    <value>加工条件ファイルが存在しません。</value>
+  </data>
+  <data name="MSG_CALIBRATION_001" xml:space="preserve">
+    <value>キャリブレーションを実行します。
+[START]を押してください。
+[RESET]：中止</value>
+  </data>
+  <data name="MSG_CALIBRATION_002" xml:space="preserve">
+    <value>外部カメラでずれ量を検出します。
+[START]を押してください。
+[RESET]：中止</value>
+  </data>
+  <data name="MSG_CALIBRATION_003" xml:space="preserve">
+    <value>[START]：画像認識実行，[RESET]：中止</value>
+  </data>
+  <data name="MSG_CALIBRATION_004" xml:space="preserve">
+    <value>外部カメラでずれ量を検出します。(基準座標１)
+[START]：決定，[RESET]：中止</value>
+  </data>
+  <data name="MSG_CALIBRATION_005" xml:space="preserve">
+    <value>外部カメラでずれ量を検出します。(基準座標２)
+[START]：決定，[RESET]：中止</value>
+  </data>
+  <data name="MSG_CALIBRATION_006" xml:space="preserve">
+    <value>キャリブレーションを終了します。
+データを保持する場合は[OK]を、データを保持しない場合は[Cancel]を押して下さい。</value>
+  </data>
+  <data name="MSG_CALIBRATION_007" xml:space="preserve">
+    <value>画像マッチングエラー
+処理を続ける場合は[OK]を、中止する場合は[Cancel]を押して下さい。</value>
+  </data>
+  <data name="MSG_CALIBRATION_008" xml:space="preserve">
+    <value>Resetします。 [Start]:Reset実行 , [Reset]:Cancel実行 </value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_001" xml:space="preserve">
+    <value>ブロックNo.は１～９９で入力して下さい。</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_004" xml:space="preserve">
+    <value>【警告】[START]：十字カット実行，[RESET]：中止</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_005" xml:space="preserve">
+    <value>十字カット実行中
+[HALT]：一時停止</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_007" xml:space="preserve">
+    <value>[START]：画像認識実行
+[RESET]：中止</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_010" xml:space="preserve">
+    <value>補正値更新エラー
+更新結果が範囲を超えています。
+最大値、最小値に補正されます。</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_011" xml:space="preserve">
+    <value>十字カット終了
+[START]画像認識
+[RESET]中止</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_012" xml:space="preserve">
+    <value>画像認識終了</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_013" xml:space="preserve">
+    <value>画像マッチングエラー</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_014" xml:space="preserve">
+    <value>ブロック番号を入力後、[START]キーを押してください</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_015" xml:space="preserve">
+    <value>ブロック番号を入力エラー</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_016" xml:space="preserve">
+    <value>画像認識実行中</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_017" xml:space="preserve">
+    <value>矢印スイッチ:位置調整, [START]:次項, [HALT]:前項</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_018" xml:space="preserve">
+    <value>相関係数=</value>
+  </data>
+  <data name="MSG_CUT_POS_CORRECT_019" xml:space="preserve">
+    <value>画像が見つかりません</value>
+  </data>
+  <data name="MSG_LDALARM_00" xml:space="preserve">
+    <value>非常停止</value>
+  </data>
+  <data name="MSG_LDALARM_01" xml:space="preserve">
+    <value>マガジン整合性アラーム</value>
+  </data>
+  <data name="MSG_LDALARM_02" xml:space="preserve">
+    <value>割れ欠け品発生</value>
+  </data>
+  <data name="MSG_LDALARM_03" xml:space="preserve">
+    <value>ハンド１吸着アラーム</value>
+  </data>
+  <data name="MSG_LDALARM_04" xml:space="preserve">
+    <value>ハンド２吸着アラーム</value>
+  </data>
+  <data name="MSG_LDALARM_05" xml:space="preserve">
+    <value>載物台吸着センサ異常</value>
+  </data>
+  <data name="MSG_LDALARM_06" xml:space="preserve">
+    <value>載物台吸着ミス</value>
+  </data>
+  <data name="MSG_LDALARM_07" xml:space="preserve">
+    <value>ロボットアラーム</value>
+  </data>
+  <data name="MSG_LDALARM_08" xml:space="preserve">
+    <value>工程間監視アラーム</value>
+  </data>
+  <data name="MSG_LDALARM_09" xml:space="preserve">
+    <value>エレベータ異常</value>
+  </data>
+  <data name="MSG_LDALARM_10" xml:space="preserve">
+    <value>マガジン又は基板無し</value>
+  </data>
+  <data name="MSG_LDALARM_11" xml:space="preserve">
+    <value>原点復帰タイムアウト</value>
+  </data>
+  <data name="MSG_LDALARM_12" xml:space="preserve">
+    <value>クランプ異常</value>
+  </data>
+  <data name="MSG_LDALARM_13" xml:space="preserve">
+    <value>エアー圧低下検出</value>
+  </data>
+  <data name="MSG_LDALARM_14" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_15" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_16" xml:space="preserve">
+    <value>旋回シリンダタイムアウト</value>
+  </data>
+  <data name="MSG_LDALARM_17" xml:space="preserve">
+    <value>ハンド１シリンダタイムアウト</value>
+  </data>
+  <data name="MSG_LDALARM_18" xml:space="preserve">
+    <value>ハンド２シリンダタイムアウト</value>
+  </data>
+  <data name="MSG_LDALARM_19" xml:space="preserve">
+    <value>供給ハンド吸着ミス</value>
+  </data>
+  <data name="MSG_LDALARM_20" xml:space="preserve">
+    <value>回収ハンド吸着ミス</value>
+  </data>
+  <data name="MSG_LDALARM_21" xml:space="preserve">
+    <value>ＮＧ排出満杯</value>
+  </data>
+  <data name="MSG_LDALARM_22" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="MSG_LDALARM_23" xml:space="preserve">
+    <value>ドアオープン</value>
+  </data>
+  <data name="MSG_LDALARM_24" xml:space="preserve">
+    <value>二枚取り検出</value>
+  </data>
+  <data name="MSG_LDALARM_25" xml:space="preserve">
+    <value>搬送上下機構アラーム</value>
+  </data>
+  <data name="MSG_LDALARM_26" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_27" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_28" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_29" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_30" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_31" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDALARM_UD" xml:space="preserve">
+    <value>未定義アラーム No.</value>
+  </data>
+  <data name="MSG_LDGUID_00" xml:space="preserve">
+    <value>非常停止ＳＷが押されました。</value>
+  </data>
+  <data name="MSG_LDGUID_01" xml:space="preserve">
+    <value>マガジンが正規の位置か確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_02" xml:space="preserve">
+    <value>割れ欠け品が発生しました。基板を取り除いてください。</value>
+  </data>
+  <data name="MSG_LDGUID_03" xml:space="preserve">
+    <value>吸着センサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_04" xml:space="preserve">
+    <value>吸着センサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_05" xml:space="preserve">
+    <value>吸着センサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_06" xml:space="preserve">
+    <value>吸着センサを確認してください。
+トッププレートにキズや基板のかけらが無いか確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_07" xml:space="preserve">
+    <value>ロボットアラームが発生しました。</value>
+  </data>
+  <data name="MSG_LDGUID_08" xml:space="preserve">
+    <value>工程間監視でタイムアウトが発生しました。</value>
+  </data>
+  <data name="MSG_LDGUID_09" xml:space="preserve">
+    <value>エレベータのセンサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_11" xml:space="preserve">
+    <value>原点復帰時にタイムアウトが発生しました。</value>
+  </data>
+  <data name="MSG_LDGUID_12" xml:space="preserve">
+    <value>クランプ異常が発生しました。</value>
+  </data>
+  <data name="MSG_LDGUID_13" xml:space="preserve">
+    <value>エアーが正しく供給されているか確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_14" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_15" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_16" xml:space="preserve">
+    <value>シリンダセンサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_17" xml:space="preserve">
+    <value>シリンダセンサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_18" xml:space="preserve">
+    <value>シリンダセンサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_19" xml:space="preserve">
+    <value>基板吸着時にタイムアウトが発生しました。</value>
+  </data>
+  <data name="MSG_LDGUID_20" xml:space="preserve">
+    <value>基板吸着時にタイムアウトが発生しました。</value>
+  </data>
+  <data name="MSG_LDGUID_21" xml:space="preserve">
+    <value>ＮＧ排出ＢＯＸが満杯です。基板を取り除いてください。</value>
+  </data>
+  <data name="MSG_LDGUID_22" xml:space="preserve">
+    <value>一時停止中です。</value>
+  </data>
+  <data name="MSG_LDGUID_23" xml:space="preserve">
+    <value>ドアオープンが検出されました。ドアを閉じてください。</value>
+  </data>
+  <data name="MSG_LDGUID_24" xml:space="preserve">
+    <value>供給ハンドの基板を取り除いて再実行してください。</value>
+  </data>
+  <data name="MSG_LDGUID_25" xml:space="preserve">
+    <value>搬送上下機構のリミットセンサを確認してください。</value>
+  </data>
+  <data name="MSG_LDGUID_26" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_27" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_28" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_29" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_30" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_31" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDGUID_UD" xml:space="preserve">
+    <value>メーカにアラーム番号を問い合わせてください。</value>
+  </data>
+  <data name="MSG_LDINFO_UD" xml:space="preserve">
+    <value>想定外アラーム</value>
+  </data>
+  <data name="MSG_LOADER_05" xml:space="preserve">
+    <value>ローダエラー</value>
+  </data>
+  <data name="MSG_LOADER_07" xml:space="preserve">
+    <value>パターンマッチングエラー</value>
+  </data>
+  <data name="MSG_LOADER_15" xml:space="preserve">
+    <value>自動運転終了</value>
+  </data>
+  <data name="MSG_LOADER_16" xml:space="preserve">
+    <value>ローダアラームリスト</value>
+  </data>
+  <data name="MSG_LOADER_17" xml:space="preserve">
+    <value>載物台上に基板が残っている場合は</value>
+  </data>
+  <data name="MSG_LOADER_18" xml:space="preserve">
+    <value>取り除いてください。</value>
+  </data>
+  <data name="MSG_LOADER_19" xml:space="preserve">
+    <value>基板品種が変わりました</value>
+  </data>
+  <data name="MSG_LOADER_20" xml:space="preserve">
+    <value>ＮＧ排出ボックスからＮＧ基板を取り除いてから</value>
+  </data>
+  <data name="MSG_LOADER_21" xml:space="preserve">
+    <value>ＮＧ排出ボックス満杯</value>
+  </data>
+  <data name="MSG_LOADER_22" xml:space="preserve">
+    <value>STARTキー又はOKボタン押下で原点復帰します。</value>
+  </data>
+  <data name="MSG_LOADER_23" xml:space="preserve">
+    <value>自動運転を中止します</value>
+  </data>
+  <data name="MSG_LOADER_29" xml:space="preserve">
+    <value>装置内に基板が残っている場合は</value>
+  </data>
+  <data name="MSG_LOADER_30" xml:space="preserve">
+    <value>自動運転停止中</value>
+  </data>
+  <data name="MSG_LOADER_31" xml:space="preserve">
+    <value>OKボタン押下でアプリケーションを終了します</value>
+  </data>
+  <data name="MSG_LOADER_32" xml:space="preserve">
+    <value>載物台の基板を取り除いてから</value>
+  </data>
+  <data name="MSG_LOADER_33" xml:space="preserve">
+    <value>再度自動運転を実行して下さい</value>
+  </data>
+  <data name="MSG_LOADER_34" xml:space="preserve">
+    <value>マガジンを基板検出センサＯＦＦ位置まで</value>
+  </data>
+  <data name="MSG_LOADER_35" xml:space="preserve">
+    <value>下げてから</value>
+  </data>
+  <data name="MSG_LOADER_36" xml:space="preserve">
+    <value>載物台の基板を取り除いて下さい</value>
+  </data>
+  <data name="MSG_LOADER_37" xml:space="preserve">
+    <value>載物台上に基板が残っています</value>
+  </data>
+  <data name="MSG_LOADER_38" xml:space="preserve">
+    <value>STARTキー又はOKボタン押下で</value>
+  </data>
+  <data name="MSG_LOADER_39" xml:space="preserve">
+    <value>ステージを原点に戻します</value>
+  </data>
+  <data name="MSG_LOADER_40" xml:space="preserve">
+    <value>ＮＧ基板を取り除いて下さい</value>
+  </data>
+  <data name="MSG_LOADER_41" xml:space="preserve">
+    <value>ＮＧ基板を取り除いてから</value>
+  </data>
+  <data name="MSG_LOADER_42" xml:space="preserve">
+    <value>載物台に基板がありません</value>
+  </data>
+  <data name="MSG_LOADER_43" xml:space="preserve">
+    <value>基板を置いて再度実行して下さい</value>
+  </data>
+  <data name="MSG_LOADER_44" xml:space="preserve">
+    <value>マガジン終了</value>
+  </data>
+  <data name="MSG_LOADER_45" xml:space="preserve">
+    <value>OKボタン押下で自動運転を続行します</value>
+  </data>
+  <data name="MSG_LOADER_46" xml:space="preserve">
+    <value>Cancelボタン押下で自動運転を終了します</value>
+  </data>
+  <data name="MSG_LOADER_47" xml:space="preserve">
+    <value>プローブチェックエラー</value>
+  </data>
+  <data name="MSG_LOADER_48" xml:space="preserve">
+    <value>サイクル停止中</value>
+  </data>
+  <data name="MSG_LOADER_49" xml:space="preserve">
+    <value>割欠検出</value>
+  </data>
+  <data name="MSG_OPLOG_CALIBRATION_RECOG_START" xml:space="preserve">
+    <value>キャリブレーション画像登録</value>
+  </data>
+  <data name="MSG_OPLOG_CALIBRATION_START" xml:space="preserve">
+    <value>キャリブレーション</value>
+  </data>
+  <data name="MSG_OPLOG_CUT_POS_CORRECT_RECOG_START" xml:space="preserve">
+    <value>カット位置補正画像登録</value>
+  </data>
+  <data name="MSG_OPLOG_CUT_POS_CORRECT_START" xml:space="preserve">
+    <value>カット位置補正</value>
+  </data>
+  <data name="MSG_OPLOG_ExCam1_START" xml:space="preserve">
+    <value>外部カメラティーチング(全抵抗)</value>
+  </data>
+  <data name="MSG_OPLOG_ExCam_START" xml:space="preserve">
+    <value>外部カメラティーチング(第1抵抗)</value>
+  </data>
+  <data name="MSG_OPLOG_TX_START" xml:space="preserve">
+    <value>TXティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_TY2_START" xml:space="preserve">
+    <value>TY2ティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_TY_START" xml:space="preserve">
+    <value>TYティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_T_THETA_START" xml:space="preserve">
+    <value>Tθティーチング</value>
+  </data>
+  <data name="MSG_TRIM_01" xml:space="preserve">
+    <value>は加工範囲外です。</value>
+  </data>
+  <data name="MSG_TRIM_02" xml:space="preserve">
+    <value>ローダー自動運転の起動ができませんでした。</value>
+  </data>
+  <data name="MSG_TRIM_03" xml:space="preserve">
+    <value>処理を続行しますか？</value>
+  </data>
+  <data name="MSG_TRIM_04" xml:space="preserve">
+    <value>イニシャルテスト　分布図</value>
+  </data>
+  <data name="MSG_TRIM_05" xml:space="preserve">
+    <value>ファイナルテスト　分布図　（全抵抗）</value>
+  </data>
+  <data name="ERR_TXNUM_E_CHIP" xml:space="preserve">
+    <value>抵抗数が１のためこのコマンドは実行できません！</value>
+  </data>
+  <data name="ERR_TXNUM_E_NET" xml:space="preserve">
+    <value>サーキット数が１のためこのコマンドは実行できません！</value>
+  </data>
+  <data name="INFO_MSG18_CHIP" xml:space="preserve">
+    <value>第1グループ、第1抵抗基準位置のティーチング</value>
+  </data>
+  <data name="INFO_MSG18_NET" xml:space="preserve">
+    <value>第1グループ、第1サーキット位置のティーチング</value>
+  </data>
+  <data name="INFO_MSG20_CHIP" xml:space="preserve">
+    <value>グループ、最終抵抗基準位置のティーチング</value>
+  </data>
+  <data name="INFO_MSG20_NET" xml:space="preserve">
+    <value>グループ、最終サーキット基準位置のティーチング</value>
+  </data>
+  <data name="INFO_MSG28" xml:space="preserve">
+    <value>グループ、最終端位置のティーチング</value>
+  </data>
+  <data name="INFO_MSG29" xml:space="preserve">
+    <value>グループ、最先端位置のティーチング</value>
+  </data>
+  <data name="MSG_OPLOG_MAINT" xml:space="preserve">
+    <value>プローブクリーニング</value>
+  </data>
+  <data name="BarCode_Data_001" xml:space="preserve">
+    <value>[バーコード情報]</value>
+  </data>
+  <data name="BarCode_Data_002" xml:space="preserve">
+    <value> バーコード  ：</value>
+  </data>
+  <data name="BarCode_Data_003" xml:space="preserve">
+    <value> 品種        ：</value>
+  </data>
+  <data name="BarCode_Data_004" xml:space="preserve">
+    <value> オプションＡ：</value>
+  </data>
+  <data name="BarCode_Data_005" xml:space="preserve">
+    <value> オプションＢ：</value>
+  </data>
+  <data name="BarCode_Data_006" xml:space="preserve">
+    <value> 抵抗値      ：</value>
+  </data>
+  <data name="basMatrix_001" xml:space="preserve">
+    <value>オートプローブ実行 補正値X=</value>
+  </data>
+  <data name="basMatrix_002" xml:space="preserve">
+    <value>, 補正値Y=</value>
+  </data>
+  <data name="basTrimming_001" xml:space="preserve">
+    <value>相手Windowのハンドルが取得できません</value>
+  </data>
+  <data name="DataAccess_001" xml:space="preserve">
+    <value>データ読出しエラー！</value>
+  </data>
+  <data name="DataAccess_002" xml:space="preserve">
+    <value>抵抗番号= </value>
+  </data>
+  <data name="DataAccess_003" xml:space="preserve">
+    <value>カット番号= </value>
+  </data>
+  <data name="DataAccess_004" xml:space="preserve">
+    <value>エラーコード：</value>
+  </data>
+  <data name="DataAccess_005" xml:space="preserve">
+    <value>エラー説明：</value>
+  </data>
+  <data name="File_001" xml:space="preserve">
+    <value>ｴﾗｰ情報</value>
+  </data>
+  <data name="File_002" xml:space="preserve">
+    <value>ｴﾗｰ番号</value>
+  </data>
+  <data name="File_003" xml:space="preserve">
+    <value>ｴﾗｰ内容</value>
+  </data>
+  <data name="File_004" xml:space="preserve">
+    <value>ｴﾗｰ番号</value>
+  </data>
+  <data name="File_005" xml:space="preserve">
+    <value>ファイル構成が変更されています。</value>
+  </data>
+  <data name="File_006" xml:space="preserve">
+    <value>下記に示す項目を確認後、SAVEを行ってください。</value>
+  </data>
+  <data name="File_007" xml:space="preserve">
+    <value>【プレートデータ】</value>
+  </data>
+  <data name="File_008" xml:space="preserve">
+    <value>・θ軸</value>
+  </data>
+  <data name="File_009" xml:space="preserve">
+    <value>・LED制御</value>
+  </data>
+  <data name="File_010" xml:space="preserve">
+    <value>・GP-IB制御</value>
+  </data>
+  <data name="File_011" xml:space="preserve">
+    <value>【グループデータ】</value>
+  </data>
+  <data name="File_012" xml:space="preserve">
+    <value>・抵抗数</value>
+  </data>
+  <data name="File_013" xml:space="preserve">
+    <value>・グループ間インターバル</value>
+  </data>
+  <data name="File_014" xml:space="preserve">
+    <value>・Ｔθオフセット</value>
+  </data>
+  <data name="File_015" xml:space="preserve">
+    <value>・Ｔθ基準位置１XY</value>
+  </data>
+  <data name="File_016" xml:space="preserve">
+    <value>・Ｔθ基準位置２XY</value>
+  </data>
+  <data name="File_017" xml:space="preserve">
+    <value>・パワー調整モード</value>
+  </data>
+  <data name="File_018" xml:space="preserve">
+    <value>・調整目標パワー</value>
+  </data>
+  <data name="File_019" xml:space="preserve">
+    <value>・パワー調整 Ｑレート</value>
+  </data>
+  <data name="File_020" xml:space="preserve">
+    <value>・パワー調整許容範囲</value>
+  </data>
+  <data name="File_021" xml:space="preserve">
+    <value>【カットデータ】</value>
+  </data>
+  <data name="File_022" xml:space="preserve">
+    <value>・カットオフ オフセット</value>
+  </data>
+  <data name="File_023" xml:space="preserve">
+    <value>【プレートデータ 2】</value>
+  </data>
+  <data name="File_024" xml:space="preserve">
+    <value>・補正位置パターンのグループ番号</value>
+  </data>
+  <data name="File_025" xml:space="preserve">
+    <value>項目を確認後、SAVEを行ってください。</value>
+  </data>
+  <data name="File_026" xml:space="preserve">
+    <value>・グループ数ＸＹ</value>
+  </data>
+  <data name="FrmCutPosCorrect_001" xml:space="preserve">
+    <value>ﾃｨｰﾁﾝｸﾞX</value>
+  </data>
+  <data name="FrmCutPosCorrect_002" xml:space="preserve">
+    <value>ﾃｨｰﾁﾝｸﾞY</value>
+  </data>
+  <data name="FrmCutPosCorrect_003" xml:space="preserve">
+    <value>ずれ量X </value>
+  </data>
+  <data name="FrmCutPosCorrect_004" xml:space="preserve">
+    <value>ずれ量Y </value>
+  </data>
+  <data name="frmDistribution_001" xml:space="preserve">
+    <value>保存完了！</value>
+  </data>
+  <data name="frmDistribution_002" xml:space="preserve">
+    <value>保存できませんでした。</value>
+  </data>
+  <data name="frmDistribution_003" xml:space="preserve">
+    <value>生産グラフ　表示</value>
+  </data>
+  <data name="frmDistribution_004" xml:space="preserve">
+    <value>生産グラフ　非表示</value>
+  </data>
+  <data name="frmDistribution_005" xml:space="preserve">
+    <value>～</value>
+  </data>
+  <data name="frmLotNoInput_001" xml:space="preserve">
+    <value>Lot No を入力してください。</value>
+  </data>
+  <data name="frmProbeCleaning_001" xml:space="preserve">
+    <value>数値は{0}～{1}の範囲で入力して下さい。 ({2})</value>
+  </data>
+  <data name="Globals_Renamed_001" xml:space="preserve">
+    <value>加工条件の登録件数が最大件数を超えました。電流値、周波数、STEG本数を確認して下さい。</value>
+  </data>
+  <data name="Globals_Renamed_002" xml:space="preserve">
+    <value>パターン認識成功</value>
+  </data>
+  <data name="Globals_Renamed_003" xml:space="preserve">
+    <value>パターン認識エラー(閾値エラー)</value>
+  </data>
+  <data name="Globals_Renamed_004" xml:space="preserve">
+    <value>相関係数</value>
+  </data>
+  <data name="Globals_Renamed_005" xml:space="preserve">
+    <value>ずれ量X</value>
+  </data>
+  <data name="Globals_Renamed_006" xml:space="preserve">
+    <value>ずれ量Y</value>
+  </data>
+  <data name="Globals_Renamed_007" xml:space="preserve">
+    <value>パターン認識エラー(パターンが見つからなかった)</value>
+  </data>
+  <data name="Globals_Renamed_008" xml:space="preserve">
+    <value>Z軸ソフトリミット </value>
+  </data>
+  <data name="gwModule_001" xml:space="preserve">
+    <value> ～ </value>
+  </data>
+  <data name="QR_Data_001" xml:space="preserve">
+    <value> タイプ　　　　　　：</value>
+  </data>
+  <data name="QR_Data_002" xml:space="preserve">
+    <value> 許容差　　　　　　：</value>
+  </data>
+  <data name="QR_Data_003" xml:space="preserve">
+    <value> 抵抗値（ＩＥＣ）　：</value>
+  </data>
+  <data name="QR_Data_004" xml:space="preserve">
+    <value> 抵抗値（実抵抗値）：</value>
+  </data>
+  <data name="QR_Data_005" xml:space="preserve">
+    <value> ロットＮｏ．　　　：</value>
+  </data>
+  <data name="QR_Print_001" xml:space="preserve">
+    <value>ＭＳ ゴシック</value>
+  </data>
+  <data name="SimpleTrimmer_001" xml:space="preserve">
+    <value>保存完了！</value>
+  </data>
+  <data name="SimpleTrimmer_002" xml:space="preserve">
+    <value>ブロックデータ</value>
+  </data>
+  <data name="SimpleTrimmer_003" xml:space="preserve">
+    <value>ＭＳ ゴシック</value>
+  </data>
+  <data name="SimpleTrimmer_004" xml:space="preserve">
+    <value>歩留まり</value>
+  </data>
+  <data name="SimpleTrimmer_005" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="SimpleTrimmer_006" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="SimpleTrimmer_007" xml:space="preserve">
+    <value>経過時間</value>
+  </data>
+  <data name="SimpleTrimmer_008" xml:space="preserve">
+    <value>処理基板数</value>
+  </data>
+  <data name="SimpleTrimmer_009" xml:space="preserve">
+    <value>処理抵抗数</value>
+  </data>
+  <data name="SimpleTrimmer_010" xml:space="preserve">
+    <value>レーザパワー</value>
+  </data>
+  <data name="SimpleTrimmer_011" xml:space="preserve">
+    <value>目標値</value>
+  </data>
+  <data name="SimpleTrimmer_012" xml:space="preserve">
+    <value>下限</value>
+  </data>
+  <data name="SimpleTrimmer_013" xml:space="preserve">
+    <value>上限</value>
+  </data>
+  <data name="SimpleTrimmer_014" xml:space="preserve">
+    <value>初期測定</value>
+  </data>
+  <data name="SimpleTrimmer_015" xml:space="preserve">
+    <value>最終測定</value>
+  </data>
+  <data name="SimpleTrimmer_016" xml:space="preserve">
+    <value>基板</value>
+  </data>
+  <data name="SimpleTrimmer_017" xml:space="preserve">
+    <value>ロット</value>
+  </data>
+  <data name="SimpleTrimmer_018" xml:space="preserve">
+    <value>処理数</value>
+  </data>
+  <data name="SimpleTrimmer_019" xml:space="preserve">
+    <value>ＯＫ(%)</value>
+  </data>
+  <data name="SimpleTrimmer_020" xml:space="preserve">
+    <value>Low NG(%)</value>
+  </data>
+  <data name="SimpleTrimmer_021" xml:space="preserve">
+    <value>High NG(%)</value>
+  </data>
+  <data name="SimpleTrimmer_022" xml:space="preserve">
+    <value>Range Over(%)</value>
+  </data>
+  <data name="SimpleTrimmer_023" xml:space="preserve">
+    <value>最小値</value>
+  </data>
+  <data name="SimpleTrimmer_024" xml:space="preserve">
+    <value>最大値</value>
+  </data>
+  <data name="SimpleTrimmer_025" xml:space="preserve">
+    <value>平均値</value>
+  </data>
+  <data name="SimpleTrimmer_026" xml:space="preserve">
+    <value>３σ</value>
+  </data>
+  <data name="SimpleTrimmer_027" xml:space="preserve">
+    <value>ＣｐＫ</value>
+  </data>
+  <data name="SimpleTrimmer_028" xml:space="preserve">
+    <value>データクリア</value>
+  </data>
+  <data name="SimpleTrimmer_029" xml:space="preserve">
+    <value>データセーブ</value>
+  </data>
+  <data name="SimpleTrimmer_030" xml:space="preserve">
+    <value>BP 調整</value>
+  </data>
+  <data name="SimpleTrimmer_031" xml:space="preserve">
+    <value>データ編集</value>
+  </data>
+  <data name="SimpleTrimmer_032" xml:space="preserve">
+    <value>メイン</value>
+  </data>
+  <data name="SimpleTrimmer_033" xml:space="preserve">
+    <value>抵抗</value>
+  </data>
+  <data name="SimpleTrimmer_034" xml:space="preserve">
+    <value>初期測定（誤差%）</value>
+  </data>
+  <data name="SimpleTrimmer_035" xml:space="preserve">
+    <value>最終測定（誤差%）</value>
+  </data>
+  <data name="SimpleTrimmer_036" xml:space="preserve">
+    <value>ロット番号</value>
+  </data>
+  <data name="SimpleTrimmer_037" xml:space="preserve">
+    <value>メンテナンス</value>
+  </data>
+  <data name="SimpleTrimmer_038" xml:space="preserve">
+    <value>プローブクリーニング</value>
+  </data>
+  <data name="SimpleTrimmer_039" xml:space="preserve">
+    <value>LaserをONしてください</value>
+  </data>
+  <data name="SimpleTrimmer_040" xml:space="preserve">
+    <value>MΩ</value>
+  </data>
+  <data name="SimpleTrimmer_041" xml:space="preserve">
+    <value>KΩ</value>
+  </data>
+  <data name="SimpleTrimmer_042" xml:space="preserve">
+    <value>Ω</value>
+  </data>
+  <data name="SimpleTrimmer_043" xml:space="preserve">
+    <value>mΩ</value>
+  </data>
+  <data name="MSG_OPLOG_INTEGRATED" xml:space="preserve">
+    <value>統合登録調整</value>
+  </data>
+  <data name="iTKY_001" xml:space="preserve">
+    <value>[ {0} ] を実行します</value>
+  </data>
+  <data name="MSG_SPRASH52" xml:space="preserve">
+    <value>載物台上の基板状態を確認してください。</value>
+  </data>
+  <data name="MSG_SPRASH53" xml:space="preserve">
+    <value>STARTで再実行、Cancelで終了します。</value>
+  </data>
+  <data name="MSG_SPRASH54" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="MSG_SPRASH55" xml:space="preserve">
+    <value>クリアしない</value>
+  </data>
+  <data name="MSG_165" xml:space="preserve">
+    <value>レーザパワーモニタリング異常終了</value>
+  </data>
+  <data name="MSG_DOORLOCKRELEASE_TIMEOUT" xml:space="preserve">
+    <value>前面扉ロック解除タイムアウト</value>
+  </data>
+  <data name="MSG_DOORLOCK_TIMEOUT" xml:space="preserve">
+    <value>前面扉ロックタイムアウト</value>
+  </data>
+  <data name="MSG_LOADER_67" xml:space="preserve">
+    <value>クランプ動作チェック中</value>
+  </data>
+  <data name="MSG_LOADER_68" xml:space="preserve">
+    <value>サイクル停止待機中</value>
+  </data>
+  <data name="MSG_LOADER_69" xml:space="preserve">
+    <value>サイクル停止中になるまで扉を開かないでください</value>
+  </data>
+  <data name="MSG_LOADER_50" xml:space="preserve">
+    <value>載物台の基板を取り除いてください。</value>
+  </data>
+  <data name="MSG_SPRASH56" xml:space="preserve">
+    <value>NG率が設定値を超えました。</value>
+  </data>
+</root>
